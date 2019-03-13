@@ -15,8 +15,8 @@
 */
 
 //Code here
-
-
+let me = {name: "David", age: 24};
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +26,7 @@
 */
 
 //Code here
-
+let favoriteThings = {band: "Pink Floyd", food: "Chinese", person: "Michael Scott", book: "The Alchemist", movie: "Pursuit of Happyness", holiday: "Birthday" }
 
 
 /*
@@ -34,16 +34,16 @@
 */
 
 //Code here
-
-
+favoriteThings.car = "Tundra";
+favoriteThings.brand = "Toyota";
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -56,16 +56,20 @@
 */
 
 //Code here
-
-
-
+let backPack = {};
+let item = "firstPocket";
+backPack.firstPocket = "chapstick";
+backPack.color = "black";
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
-
+backPack = {
+  firstPocket: "chapstick",
+  color: "black"
+};
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -74,8 +78,11 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
-
+backPack = {
+  firstPocket: "chapstick",
+  color: "black"
+};
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -92,14 +99,13 @@ var user2 = {
 
 /* 
   Let's say I, the user, decided to change my name and email address to the following:
-  name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
+  name -> 'Tyler S. McGinnis' and email -> 'ter.mylcginnis@devmounta.in'. 
   Make that change without modifying the original object code above.
 */
 
 //Code Here
-
-
-
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
 
 
@@ -120,7 +126,7 @@ var user2 = {
 */
 
 //Code Here
-
+let methodCollection = {};
 
 
 /*
